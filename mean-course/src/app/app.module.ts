@@ -8,6 +8,7 @@ import {MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatIco
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import {FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {FormsModule} from '@angular/forms';
     MatToolbarModule,
     MatIconModule,
     MatExpansionModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
